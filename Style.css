@@ -1,1 +1,183 @@
-# First-project
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-image: url(background5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Navbar styles */
+.navbar {
+background-color: #343434;
+padding: 15px 20px;
+}
+
+.navdiv {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo a {
+color: white;
+font-size: 24px;
+font-weight: bold;
+text-decoration: none;
+}
+
+ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+ul li {
+margin: 0 15px;
+}
+
+ul li a {
+text-decoration: none;
+color: white;
+font-size: 18px;
+transition: color 0.3s;
+}
+
+ul li a:hover {
+color: #a8da70;
+}
+
+/* Button styles */
+ul li button {
+background-color: #f4a261;
+border: none;
+padding: 8px 15px;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+ul li button a {
+text-decoration: none;
+color: white;
+font-size: 16px;
+}
+
+ul li button:hover {
+background-color: #faf9f9;
+}
+.nav-buttons {
+display: flex; /* Ensures buttons stay aligned */
+gap: 25px; /* Adds spacing between buttons */
+}
+
+.nav-buttons button {
+background-color: #010703;
+border: none;
+padding: 8px 12px;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+font-size: 12px;
+cursor: pointer;
+
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+}
+
+.container {
+width: 80%;
+margin: 0 auto;
+}
+
+header {
+text-align: center;
+margin-top: 30px;
+}
+
+h1 {
+font-size: 36px;
+color: #333;
+}
+
+p {
+color: #666;
+}
+
+.products {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 50px;
+}
+
+.product-card {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+width: 30%;
+margin-bottom: 30px;
+text-align: center;
+transition: transform 0.3s;
+}
+
+.product-card:hover {
+transform: translateY(-10px);
+}
+
+.product-card img {
+width: 100%;
+height: auto;
+}
+
+.product-card h3 {
+font-size: 24px;
+color: #333;
+margin-top: 15px;
+}
+
+.product-card p {
+color: #555;
+margin: 10px 0;
+}
+
+.product-card .price {
+font-size: 20px;
+font-weight: bold;
+color: #e63946;
+}
+
+button {
+background-color: #1d3557;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 20px;
+font-size: 16px;
+transition: background-color 0.3s;
+}
+
+button:hover {
+background-color: #457b9d;
+}
+
+footer {
+text-align: center;
+margin-top: 50px;
+font-size: 14px;
+color: #555;
+}
+
