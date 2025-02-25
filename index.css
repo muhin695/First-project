@@ -93,3 +93,19 @@ h3{
 .list li a{
     text-decoration: none;
 }
+@media (max-width:768px){
+    body{
+        min-height: 200vh; /* Ensures full screen height */
+        background-position: center; 
+    }
+    .navbar{
+        width: 200%;
+        
+    }
+    .container{
+        width: 200%;
+    }
+    .footer{
+        width: 200vh;
+    }
+}

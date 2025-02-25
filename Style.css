@@ -12,6 +12,7 @@ background-size: cover;
 .navbar {
 background-color: #343434;
 padding: 15px 20px;
+width: 100%;
 }
 
 .navdiv {
@@ -180,4 +181,17 @@ margin-top: 50px;
 font-size: 14px;
 color: #555;
 }
-
+/*Mobile View*/
+@media (max-width:768px){
+    body{
+        min-height: 200vh; /* Ensures full screen height */
+        background-position: center; 
+    }
+    .navbar{
+        width: 200%;
+        
+    }
+    .container{
+        width: 200%;
+    }
+}
